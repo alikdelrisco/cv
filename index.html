@@ -15,8 +15,859 @@
 </head>
 
 <body>
-  
 
+    <!--========== HEADER ==========-->
+    <header class=" l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Oscar</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/avatar.jpg" alt="" class="home__img">
+                            <div style="margin-top: 30px;"></div>
+                            <h1 class="home__title">Alik del Risco</h1>
+
+                            <h3 class="home__profession">Senior Software Engineer</h3>
+                            <!--<span id="resume-button" class="generate-pdf">Download</span>-->
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Sofia, Bulgaria
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> alik.delrisco92@gmail.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> (+359) 882417308
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                </section>
+
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        Senior Software Engineer with DevOps skills. Contestant in the Caribbean Final of the
+                        ACM-ICPC in 2015 and also in many national competitive programming contests during the
+                        pre-grade. Prefers JavaScript related technologies and constantly study new ones. Appreciates
+                        the level of organization and planning during the development of projects, the use of good
+                        practices and the quality of the code.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">COMPUTER SCIENCE ENGINEER</h3>
+                                <span class="education__studies">University of Informatics Sciences, Havana, Cuba</span>
+                                <span class="education__year">2011 - 2016</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h3 class="section-title">Languages</h3>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Spanish
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section hide" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <!-- <div class="skills__name">
+                            <span class="skills__circle"></span> Vue
+
+                            <span class="skills__time">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </span>
+                        </div> -->
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Javascript
+                            <!-- <span class="skills__time">(5+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Typescript
+                            <!-- <span class="skills__time">(5+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Nodejs
+                            <!-- <span class="skills__time">(5+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Angular
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Nestjs
+                            <!-- <span class="skills__time">(7+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> GraphQL
+                            <!-- <span class="skills__time">(3 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> REST
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Mongoose
+                            <!-- <span class="skills__time">(5+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> MongoDB
+                            <!-- <span class="skills__time">(7+ years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Docker
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Jest
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> TDD
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Clean Code
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Gitlab CI/CD
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Laravel
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> React
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> React Native
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Git
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> AWS
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Serverless Framework
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> C/C++
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Java
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Groovy
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Python
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Php
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Html5
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Css3
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Flexbox
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Webpack
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Grails
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Express
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Apollo
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Django
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> QT
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Camunda
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Redis
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> SQL
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> MQTT
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> ElasticSearch
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Nginx
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Scrum
+                            <!-- <span class="skills__time">(5 years)</span> -->
+                        </div>
+                    
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Prisma
+                            <!-- <span class="skills__time">(5 years)</span> -->
+
+
+                        </div>
+                    </div>
+                    <a href="#" class="skills-button" id="skills-button">See More</a>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">RESPONSABILITIES</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">Fullstack Web Developer, Devops, Team Leader, Code Reviewer,
+                                Mobile Developer, Architect</h3>
+                        </div>
+                    </div>
+
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Musala Soft December 2019 - 2022</h3>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Qivicon</b> is an innovative solution for smart homes currently being
+                                        developed
+                                        by Deutsche Telekom
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">React</li>
+                                        <li class="experience__technologies-item">React Native</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Mongoose</li>
+                                        <li class="experience__technologies-item">TypeGraphql</li>
+                                        <li class="experience__technologies-item">Jest</li>
+                                        <li class="experience__technologies-item">Graphql</li>
+                                        <li class="experience__technologies-item">Zeplin</li>
+                                        <li class="experience__technologies-item">Docker</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Elopage Media Categorizer</b> is a microservice in charge to detect content
+                                        that
+                                        is inappropriate, unwanted, or offensive
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nest.js</li>
+                                        <li class="experience__technologies-item">Prisma</li>
+                                        <li class="experience__technologies-item">Aws RDS</li>
+                                        <li class="experience__technologies-item">AWS S3</li>
+                                        <li class="experience__technologies-item">AWS Rekognition</li>
+                                        <li class="experience__technologies-item">AWS SQS</li>
+                                        <li class="experience__technologies-item">Jest</li>
+                                        <li class="experience__technologies-item">Docker</li>
+
+                                    </ul>
+
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>PDM WebConnector System</b> which aims at the integration between different
+                                        standard PLM systems involved in the life cycle of a product
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Electron</li>
+                                        <li class="experience__technologies-item">Jest</li>
+
+
+                                    </ul>
+
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Leanplum</b> React Native sdk to integrate existings native Android and iOS
+                                        sdks
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">React Native</li>
+                                        <li class="experience__technologies-item">Objective-C</li>
+                                        <li class="experience__technologies-item">Swift</li>
+                                        <li class="experience__technologies-item">Java</li>
+                                        <li class="experience__technologies-item">Jest</li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Agile Solutions March 2020 - January 2022</h3>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Agile Business Platform</b> allows end users build agile applications
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Serverless Framework</li>
+                                        <li class="experience__technologies-item">Aws Lambda</li>
+                                        <li class="experience__technologies-item">Aws DynamoDB</li>
+                                        <li class="experience__technologies-item">Aws RDS</li>
+                                        <li class="experience__technologies-item">Graphql</li>
+                                        <li class="experience__technologies-item">Aws Elasticache</li>
+                                        <li class="experience__technologies-item">Aws Elasticsearch</li>
+                                        <li class="experience__technologies-item">Aws Translate</li>
+                                        <li class="experience__technologies-item">Aws Cognito</li>
+                                        <li class="experience__technologies-item">Aws CloudFormation</li>
+                                        <li class="experience__technologies-item">Aws S3</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">TypeORM</li>
+                                        <li class="experience__technologies-item">Firebase</li>
+                                        <li class="experience__technologies-item">Firestore</li>
+                                        <li class="experience__technologies-item">Google Cloud Functions</li>
+                                        <li class="experience__technologies-item">Google Workflow</li>
+                                        <li class="experience__technologies-item">Jest</li>
+                                        <li class="experience__technologies-item">TypeGraphl</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Alltax</b> a platform for managing taxes
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Javascript</li>
+                                        <li class="experience__technologies-item">Aws Ec2</li>
+                                        <li class="experience__technologies-item">Aws S3</li>
+                                        <li class="experience__technologies-item">Aws Fargate</li>
+                                        <li class="experience__technologies-item">Aws Cognito</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">Feathersjs</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">MongoAtlas</li>
+                                        <li class="experience__technologies-item">Vuejs</li>
+                                        <li class="experience__technologies-item">Docker</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Sinavi</b> a platform for selling houses through Honduras Government
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Javascript</li>
+                                        <li class="experience__technologies-item">Aws Ec2</li>
+                                        <li class="experience__technologies-item">Aws S3</li>
+                                        <li class="experience__technologies-item">Aws Fargate</li>
+                                        <li class="experience__technologies-item">Aws Cognito</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">Feathersjs</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">MongoAtlas</li>
+                                        <li class="experience__technologies-item">Vuejs</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">MultiCuba February 2019 - December 2019
+                                </h3>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>EntregasCuba</b> a platform for cash delivery in Cuba
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Typescript</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nestjs</li>
+                                        <li class="experience__technologies-item">RabbitMQ</li>
+                                        <li class="experience__technologies-item">Redis</li>
+                                        <li class="experience__technologies-item">Aws S3</li>
+                                        <li class="experience__technologies-item">Aws SES</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Mongo Atlas</li>
+                                        <li class="experience__technologies-item">Traefik</li>
+                                        <li class="experience__technologies-item">Graphql</li>
+                                        <li class="experience__technologies-item">Apollo Federation</li>
+                                        <li class="experience__technologies-item">Microservices</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">AWS EC2</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Angular Flex-Layout</li>
+                                        <li class="experience__technologies-item">Angular Material</li>
+                                        <li class="experience__technologies-item">DevExpress</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>HubMulticuba</b> a platform for manage high volumes of operations for
+                                        Telecommunication System
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">DevExpress</li>
+                                        <li class="experience__technologies-item">Docker</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Multicuba </b> a Telecommunications System
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Laravel</li>
+                                        <li class="experience__technologies-item">Mysql</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">AWS</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Freelance October 2018 - February 2019
+                                </h3>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Sateo</b> a dating system similar to Tinder or Badoo
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nestjs + Apollo Graphql</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Mongoose</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">Mqtt</li>
+                                        <li class="experience__technologies-item">Emqx</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>DTaxi</b> cuban Cab-Rider system
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nestjs + Apollo Graphql</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Mongoose</li>
+                                        <li class="experience__technologies-item">Redis</li>
+                                        <li class="experience__technologies-item">Mosquitto Mqtt</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">JsReport</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+
+
+                                    </ul>
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Fitgames </b> a system for training athletes and bodybuilders.
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Django Rest Framework</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Jest</li>
+                                        <li class="experience__technologies-item">Postgres</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>FeedOnIdeas </b> a feedback system for any kind of application.
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Django</li>
+                                        <li class="experience__technologies-item">Graphene</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Apollo</li>
+                                        <li class="experience__technologies-item">Jasmine</li>
+                                        <li class="experience__technologies-item">Postgres</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+                                        <li class="experience__technologies-item">Gitlab CI/CD</li>
+                                        <li class="experience__technologies-item">Angular Elements</li>
+                                        <li class="experience__technologies-item">Vuejs Custom Elements</li>
+
+
+
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Redxar</b> a traveling booking System
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Php</li>
+                                        <li class="experience__technologies-item">Codeigniter</li>
+                                        <li class="experience__technologies-item">Mysql</li>
+                                        <li class="experience__technologies-item">Jquery</li>
+                                        <li class="experience__technologies-item">Bootstrap</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nestjs + Apollo Graphql</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Redis</li>
+                                        <li class="experience__technologies-item">Mongoose</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nginx</li>
+
+
+
+                                </div>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Saz5 </b> a system for selling products and services.
+
+
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Angularjs</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Javascript</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Express</li>
+                                        <li class="experience__technologies-item">MongoDB</li>
+                                        <li class="experience__technologies-item">Mongoose</li>
+                                        <li class="experience__technologies-item">ElasticSearch
+
+
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">DATYS September 2016 - October 2018
+                                </h3>
+                                <li class="experience__description">
+                                    <span class="experience__circle"></span>
+                                    <div>
+                                        <b>Papyrus</b> a distributed Content and Case management system for Government
+                                        institutions
+                                    </div>
+                                </li>
+                                <div class="experience__technologies">
+
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Grails</li>
+                                        <li class="experience__technologies-item">Groovy</li>
+                                        <li class="experience__technologies-item">Java</li>
+                                        <li class="experience__technologies-item">AngularJs</li>
+                                        <li class="experience__technologies-item">Angular</li>
+                                        <li class="experience__technologies-item">Webpack</li>
+                                        <li class="experience__technologies-item">Oracle</li>
+                                        <li class="experience__technologies-item">Docker</li>
+                                        <li class="experience__technologies-item">Nodejs</li>
+                                        <li class="experience__technologies-item">Nestjs</li>
+                                        <li class="experience__technologies-item">Camunda CMMN</li>
+                                        <li class="experience__technologies-item">Apache Tomcat</li>
+
+                                    </ul>
+                                </div>
+
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+                </section>
+
+
+
+
+
+            </div>
+        </div>
+    </main>
     <!--========== SCROLL TOP ==========-->
     <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-up-arrow-alt scrollttop__icon'></i>

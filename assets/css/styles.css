@@ -657,6 +657,7 @@ img {
   margin-left: 0.25rem;
   color: var(--text-color-light);
   font-size: var(--smaller-font-size);
+  display: flex;
 }
 
 .skills.hide .skills__time {
